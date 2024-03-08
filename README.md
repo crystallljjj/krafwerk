@@ -7,4 +7,5 @@ The conclusion is:
   The people, who is under 25,used to go to coffee house more than once a month and with passenger in car not alone and were not widowed, would be more possible to accept the bar coupon. 
   
 The analyzing notebook is located at https://github.com/crystallljjj/krafwerk/blob/main/prompt.ipynb.
+
 There is also a report on "coupon_analysis.pptx".
