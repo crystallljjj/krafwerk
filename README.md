@@ -63,8 +63,8 @@ https://github.com/crystallljjj/krafwerk/blob/ML/AI_task11/prompt_II.ipynb
 
 
   5. Evaluation
-     # After the testing above, it shows that 'type', 'model', 'drive' and 'fuel' are the most important factors affecting the used car price.
-# All the features above will lead user to select one type of car. When the type of car is selected, 'year', 'manufacturer', 'condition' , 'paint_color' and all other factors will affect the price of the car.        
+   After the testing above, it shows that 'type', 'model', 'drive' and 'fuel' are the most important factors affecting the used car price.
+   All the features above will lead user to select one type of car. When the type of car is selected, 'year', 'manufacturer', 'condition' , 'paint_color' and all other factors will affect the price of the car.        
 
 
 
