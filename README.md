@@ -4,7 +4,7 @@ https://github.com/crystallljjj/krafwerk/blob/ML/AI_task11/prompt_II.ipynb
 1. Business Understanding
    By analyzing the data, try to find the parameters which have realtively large permutation importance and build the relationship between the paras and price.
 
- 2.  Data Understanding
+2.  Data Understanding
     The general data info is shown below. This data has 42688 * 17. Most of the Columns are 'object'.
     ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/a4dccced-6573-4c52-a6c2-cb3b8d4f9502)
 
@@ -21,10 +21,41 @@ https://github.com/crystallljjj/krafwerk/blob/ML/AI_task11/prompt_II.ipynb
      ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/01635cbe-a003-44ad-b15d-9f580217a355)
 
 
-     For cross validation, we split the data into two set. X_train(70%), X_test(30%)
+      which state has more used car?
+      plot the car number based on the state. We can see that California has most used car.
+      ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/082e918c-d25d-421d-859f-9996a38440fc)
+
+      Group the data by 'manufacturer'. The most popular three brands are "ford", "chevrolet" and "toyota".
+      ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/3f065b80-e1c6-45cb-b485-8d536e5caa0c)
+
+      Classify the data by the 'fuel' and plot the ratio below.
+      ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/00af454f-6cab-4a44-8cf9-964ddcf61146)
+
+      Group the data by "drive" and plot the ratio.
+      ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/ef9cf3a2-8aaa-4cf7-8b6e-f5c7aa61698e)
+
+      
+
+ 3. Data preparation
+     Since the used car price is varies a lot based on the location. Next, we will pick up "California" data to analyze. Besides, since "size" has a very high ratio N/A value, we drop this column. We also drop "VIN", "id", "region" columns and N/A.
+    
+      For cross validation, we split the data into two set. X_train(80%), X_test(20%)
      ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/4529f859-b910-4617-aa80-a5197040f973)
 
 
+  4. Modeling
+   First, build a Linear regression model
+   ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/ca30a0df-372b-42bf-be4f-d59f1328127c)
+   ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/9b46d832-31a8-4e44-9cb5-68ecb92f8d26)
+
+   Second, build a Ridge model.
+   ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/fd213568-5131-40b3-83af-421521d90a01)
+   ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/dde0182b-5642-414f-afdc-380e7666f8fd)
+
+   Third, analyze the permutation importance of the cloumns
+   ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/7b3b4fab-e99a-4f1e-b66f-1ac21012b92a)
+
+   ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/eb8a0a86-8c49-40be-9270-5cf5e01fc9d9)
 
 
      
