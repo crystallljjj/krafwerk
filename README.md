@@ -1,4 +1,5 @@
 In this project, we are trying to analyze a used car dataset from Kaggle. We are gonna to follow the CRISP_DM framework to do the data analysis. The analyzing notebook is located at
+https://github.com/crystallljjj/krafwerk/blob/ML/AI_task11/prompt_II.ipynb
 
 1. Business Understanding
    By analyzing the data, try to find the parameters which have realtively large permutation importance and build the relationship between the paras and price.
