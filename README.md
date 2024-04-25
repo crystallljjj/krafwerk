@@ -26,6 +26,7 @@ https://github.com/crystallljjj/krafwerk/blob/ML/AI_task11/prompt_II.ipynb
       ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/082e918c-d25d-421d-859f-9996a38440fc)
 
       Group the data by 'manufacturer'. The most popular three brands are "ford", "chevrolet" and "toyota".
+    
       ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/3f065b80-e1c6-45cb-b485-8d536e5caa0c)
 
       Classify the data by the 'fuel' and plot the ratio below.
@@ -34,16 +35,19 @@ https://github.com/crystallljjj/krafwerk/blob/ML/AI_task11/prompt_II.ipynb
       Group the data by "drive" and plot the ratio.
       ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/ef9cf3a2-8aaa-4cf7-8b6e-f5c7aa61698e)
 
-      
+      Group the data by 'type' and plot the mean price for each type.
+      Pickup has highest price in all types of 'car'.
+      ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/df9a64f0-746b-4c50-a239-dd5f0c76d56d)
 
- 3. Data preparation
+   
+ 4. Data preparation
      Since the used car price is varies a lot based on the location. Next, we will pick up "California" data to analyze. Besides, since "size" has a very high ratio N/A value, we drop this column. We also drop "VIN", "id", "region" columns and N/A.
     
       For cross validation, we split the data into two set. X_train(80%), X_test(20%)
      ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/4529f859-b910-4617-aa80-a5197040f973)
 
 
-  4. Modeling
+  5. Modeling
    First, build a Linear regression model
    ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/ca30a0df-372b-42bf-be4f-d59f1328127c)
    ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/9b46d832-31a8-4e44-9cb5-68ecb92f8d26)
