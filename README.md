@@ -66,6 +66,15 @@ https://github.com/crystallljjj/krafwerk/blob/ML/AI_task11/prompt_II.ipynb
    After the testing above, it shows that 'type', 'model', 'drive' and 'fuel' are the most important factors affecting the used car price.
    All the features above will lead user to select one type of car. When the type of car is selected, 'year', 'manufacturer', 'condition' , 'paint_color' and all other factors will affect the price of the car.        
 
+  **Conclusion**
+     Based on previous analysis, for a customer who wants to purchase a used car, we have some outcomes below:
+        1. California has most used car.
+        2. Ford, Chevrolet and Toyota are the three mose popular brands.
+        3. Most used car are Gas and fuel.
+        4. Most cars are 4wd drive.
+        5. pick up has highest mean price in all types of cars.
+        6. 'year' and 'Odometer' are negtive proportional to the price.
+        7. 'condition' is proportional to the price.
 
 
 
