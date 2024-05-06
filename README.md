@@ -67,6 +67,7 @@ https://github.com/crystallljjj/krafwerk/blob/ML/AI_task11/prompt_II.ipynb
    All the features above will lead user to select one type of car. When the type of car is selected, 'year', 'manufacturer', 'condition' , 'paint_color' and all other factors will affect the price of the car.        
 
   **Conclusion**
+     
      Based on previous analysis, for a customer who wants to purchase a used car, we have some outcomes below:
      
         1. California has most used car.
