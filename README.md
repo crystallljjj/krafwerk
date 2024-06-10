@@ -10,6 +10,12 @@ data = pd.read_csv('bank+marketing/bank/bank.csv',sep = ';')
 ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/117aee6c-e85a-4485-8a16-577a0355235d)
 ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/1d33aa2a-728c-4e08-b9bd-f4ec6fafef3d)
 
+explore the categorical columns
+![image](https://github.com/crystallljjj/krafwerk/assets/14128797/13a325f9-495f-406f-9fca-1c4f45f67578)
+
+explore the numerical columns
+![image](https://github.com/crystallljjj/krafwerk/assets/14128797/9129b69a-c332-488e-bb63-a9bc9fd273f6)
+
 
 ### preprocessing the data/encode the 'str' to 'num'
 ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/84d1fa4a-2ac4-472b-9e69-ab3d3d32f75e)
@@ -30,6 +36,9 @@ data = pd.read_csv('bank+marketing/bank/bank.csv',sep = ';')
 
 ### conclusion
 Based on the analysis above, we found that using this dataset, the accuracies of different models don't have a large different. But the fitting time, since the complex of the algorithm have obvious differnces.
+
 KNN method has shortest fitting time.
+
 Desicsion tree methods is a little bit longer than KNN, but still is efficient.
+
 SVM methos have more than 200 times larger fitting time, which in this case, is not a efficient solution.
