@@ -5,6 +5,7 @@ The reason why I chose this dataset is considering the medical detection is a go
    This dataset contains 32 columns and 569 rows.
    ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/b95b0aef-f04b-48ec-a524-ff600448ca74)
 
+   1.1 plot the distribution of each data column
    ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/f1f08db7-ead9-4c22-b4ab-cc2d45fca1e0)
     ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/65c1b530-8df6-4c54-973b-237826ff52c7)
 
@@ -16,4 +17,7 @@ The reason why I chose this dataset is considering the medical detection is a go
    ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/f88de722-b093-437d-bd46-9cfcb29cb1bc)
    ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/c21ee2db-2e57-4ea1-b6cb-2f68243e5af2)
 
-   
+   ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/2e529b65-4231-4ffa-811d-b45eee9d3ea2)
+
+  ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/1679ac32-1e05-4e17-ab4d-8a285f786342)
+
