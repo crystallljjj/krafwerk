@@ -40,6 +40,6 @@ The reason why I chose this dataset is considering the medical detection is a go
    ![image](https://github.com/crystallljjj/krafwerk/assets/14128797/52fd70e7-8fda-4c66-a1fb-afcf9a09d35d)
 
 7. Fitting results. (The best model)
-## The best model for this dataset is LogisticRegression. 
-## The best parameters are C = 10, penalty = l2
-## The cross-validataion accuracy is 0.9495
+   ### The best model for this dataset is LogisticRegression. 
+   ### The best parameters are C = 10, penalty = l2
+   ### The cross-validataion accuracy is 0.9495
